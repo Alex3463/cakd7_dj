@@ -1,0 +1,3 @@
+git add .
+git commit -m "버젼 명"
+git push
