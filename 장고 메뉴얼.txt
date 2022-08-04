@@ -1,9 +1,18 @@
+<장고 프로덱트 생성>
+
 장고 프로젝트 생성 : django-admin startproject do_it_django_prj .
+
 데이터베이스 생성 : python manage.py makemigrations > python manage.py migrate 관리자 계정 생성 : python manage.py createsuperuser
+
 앱 생성 : python manage.py startapp blog single_pages  (각각 생성)
+
 settings.py에 blog 앱과 single_pages 앱 등록
-TIME_ZONE 에 'Asia/Seoul' 등록
+
+TIME_ZONE 에 'Asia/Seoul' 등록, USE_TZ = False
+
 테이블 모습 확인 : python manage.py runserver
+
 관리자 페이지에서 첫 포스트 작성 blog/admin.py : 관리자 페이지에 post 모델 등록 blog/models.py : Post 모델 정의
+
 표지판 역할 : urls.py
 do_it_django_prj/urls.py : 사용자가 웹 방문 시 어떤 페이지로 들어가야 하는지 알려줌 blog/urls.py : urlpatterns 리스트에 url과 url이 들어올 때 어떻게 처리할지 명시
