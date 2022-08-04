@@ -1,3 +1,13 @@
-git add .
-git commit -m "버젼 명"
-git push
+github repository 생성
+
+git clone 깃주소 복사 in 원하는 폴더( ex) workspace )
+
+cd cakd7_dj 폴더로 이동
+
+  <장고 프로젝트 시작>
+  bla bla 코드 작성 과정@@@
+
+*변동사항 업데이트 하는법*
+git add . : 변경 사항 추가
+git commit -m "버젼 명" : 로컬에 변경사항 커밋
+git push : 온라인에 변경사항 반영
